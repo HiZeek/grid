@@ -1,0 +1,96 @@
+/* MAIN PAGE */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-container-main {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 50px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 96px
+}
+
+.main-page-header {
+    margin-top: 32px;
+    border-bottom: 1px dashed #000000;
+}
+
+.grid-list {
+    list-style: none;
+}
+
+.grid-list a {
+    text-decoration: none;
+    color: #06212D;
+}
+
+.grid-list a:hover {
+    color: #6E97FF;
+}
+
+/* TASK 1 */
+
+.main-page-task1-header {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.grid-container-main-task1 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.grid-list-task1 {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+/* TASK 2 */
+
+.main-page-task2-header {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.grid-container-main-task2 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 50px;
+}
+
+.grid-list-task2 {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
